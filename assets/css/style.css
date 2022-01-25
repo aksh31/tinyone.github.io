@@ -1,0 +1,266 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+.row,
+.row::after,
+.row::before
+{
+	clear:both;
+	display:table;
+	width:100%;
+}
+a:link,
+a:hover,
+a:focus,
+a:active
+{
+	text-decoration:none;
+}
+/*~~~~~~~~~~ helper class ~~~~~~~~~~~*/
+.w-9
+{
+	width: calc(900% / 12);
+	margin:0 auto;
+}
+.mr-bt134
+{
+	margin-bottom: 134px;
+}
+.mr-bt88
+{
+	margin-bottom:88px;
+}
+.mr-bt80
+{
+	margin-bottom:80px;
+}
+.mr-bt56
+{
+	margin-bottom:56px;
+}
+.mr-bt42
+{
+	margin-bottom:42px;
+}
+.mr-top75
+{
+	margin-top:75px;
+}
+.mr-top20
+{
+	margin-top:20px;
+}
+.text-center
+{
+	text-align:center;
+}
+.text-justify
+{
+	text-align:justify;
+}
+.pd-right70
+{
+	padding-right: 70px;
+}
+.pd-para
+{
+	padding:20px 25px 0 0;
+}
+/*~~~~~~~~~~ helper class ends ~~~~~~~~~~~*/
+.container
+{
+	width:934px;
+	margin:0 auto;
+}
+.col2, .col3, .grid3, .grid9, .input-grid9, .grid1
+{
+	float:left;
+}
+.input-grid9
+{
+	width:100%;
+}
+.col2
+{
+	width:50%;	
+}
+.col3
+{
+	width: calc(100% / 3);
+}
+.grid3
+{
+	width: 25%;
+}
+.grid9
+{
+	width: 75%;
+}
+.grid1
+{
+	width: calc(100% / 12);
+}
+/*============================================================== Section first starts ======================================================================*/
+.tinyOne
+{
+	background-color:#fcdb00;
+	padding:57px 0 108px 0;
+}
+/*~~~~~~~~~~ Navbar Css ~~~~~~~~~~~~*/
+.navbar
+{
+	text-align:right;
+	margin:0 20px 0 20px;
+}
+.navbar li, .icons li
+{
+	list-style:none;
+	display:inline-block;	
+}
+.navbar li a
+{
+	display:inline-block;
+	text-transform:capitalize;
+	color:#010101;
+	font-size:22px;
+	font-weight:bold;
+	padding:12px;
+	margin:0 24px 0 24px;
+}
+.navbar li a.blog
+{
+	margin-right:-34px;
+}
+.navbar li a.active,
+.navbar li a:hover,
+.navbar li a:focus,
+.navbar li a:active
+{
+	font-weight:lighter;
+}
+/*~~~~~~~~~~ Info Css  ~~~~~~~~~~~*/
+.info h3
+{
+	font-size:32px;
+	font-weight:bold;
+	color:#010101;
+}
+.info h4
+{
+	font-size:20px;
+	font-weight:lighter;
+	color:#313841;
+	margin:24px 0;
+}
+.info p
+{
+	font-size:16px;
+	color:#555555;
+}
+/*~~~~~~~~~~ Info icons Css  ~~~~~~~~~~~*/
+.icons li a
+{
+	color:#010101;
+	font-size:42px;
+	margin:0 19px 0 19px;
+}
+.apple
+{
+	margin-left:-19px;
+}
+/*~~~~~~~~~~ ipad Css  ~~~~~~~~~~~*/
+.ipad img
+{
+	padding-left:110px;
+}
+/*=================================================================== Section Second Start =====================================================================*/
+.features
+{
+	padding:119px 0 174px 0;
+}
+.thumb-icon
+{
+	font-size:50px;
+	color:#010101;
+	cursor:pointer;
+}
+.thumb-info h3
+{
+	font-size:22px;
+	color:#010101;
+}
+.thumb-info p
+{
+	font-size:16px;
+	color:#898989;
+}
+/*=================================================================== Section Third starts =====================================================================*/
+.footer
+{
+	background-color:#010101;
+	padding:97px 0 141px;
+}
+.info .footer-heading
+{
+	color:#fcdb00;
+	text-transform:capitalize;
+	font-weight: lighter;
+}
+.info .para-footer
+{
+	font-size:20px;
+	color:#898989;
+}
+/*~~~~~~~~~~ Input Css  ~~~~~~~~~~~*/
+.input_mail, .btn_footer
+{
+	padding:17px 24px;
+	font-size:16px;
+	border-radius:10px;
+	border:0px;
+	outline:none;
+}
+.input_mail
+{
+	width:calc(100% - 150px);
+	color:#898989;
+}
+.btn_footer
+{
+	width:125px;
+	margin-left:20px;
+	text-transform:uppercase;
+	background-color:#fcdb00;
+	font-weight:bold;
+	cursor:pointer;
+}
+.footer-icons li a
+{
+	color:#fcdb00;
+}
+/*~~~~~~~~~~ Footer Contact Css  ~~~~~~~~~~~*/
+.mr-left-grid1
+{
+	margin-left:calc(100% / 12);
+}
+.cont-info
+{
+	padding-right:24px;
+}
+.cont-info li, .cont-info a
+{
+	list-style:none;
+	color:#fff;
+}
+.cont-info li i
+{
+	color:#fcdb00;
+}
+/* .cont-info a:hover */
+/* { */
+	/* text-decoration:underline; */
+/* } */
